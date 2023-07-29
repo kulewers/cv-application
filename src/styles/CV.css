@@ -1,0 +1,37 @@
+.cv {
+  grid-column: 2 / 3;
+  grid-row: 1 / -1;
+  width: 841px;
+  height: 1189px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 60px;
+}
+
+.cv header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  gap: 200px;
+}
+
+header h1 {
+  font-size: 2.4em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.experience p {
+  font-size: 1.2em;
+}
+
+.degree {
+  font-weight: bold;
+}

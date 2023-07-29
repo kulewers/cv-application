@@ -1,0 +1,15 @@
+.general {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.general input {
+  width: 250px;
+}

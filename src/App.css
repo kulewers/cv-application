@@ -1,0 +1,11 @@
+#root {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  grid-template-rows: repeat(3, 400px);
+  grid-auto-flow: column;
+  margin: 0;
+}
+
+input {
+  width: 300px;
+}
